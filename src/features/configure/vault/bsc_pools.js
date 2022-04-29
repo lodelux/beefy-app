@@ -89,7 +89,7 @@ export const bscPools = [
     depositsPaused: false,
     status: 'active',
     platform: 'Beefy.Finance',
-    assets: ['beQI'],
+    assets: ['beCAKE'],
     withdrawalFee: '0%',
     risks: [
       'COMPLEXITY_LOW',
