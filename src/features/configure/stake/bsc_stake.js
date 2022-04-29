@@ -174,6 +174,39 @@ export const bscStakePools = [
   },
 
   {
+    id: 'moo_beCAKE',
+    name: 'Beefy',
+    logo: 'single-assets/beCAKE.png',
+    token: 'beCAKE',
+    tokenDecimals: 18,
+    tokenAddress: '0x42b50A901228fb4C739C19fcd38DC2182B515B66',
+    tokenOracle: 'tokens',
+    tokenOracleId: 'beCAKE',
+    earnedToken: 'CAKE',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    earnContractAddress: '0x49fAfAA2d9E32A6Af37A11cEeC50D76A772390Cc',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'CAKE',
+    partnership: false,
+    status: 'active',
+    fixedStatus: true,
+    partners: [
+      {
+        logo: 'stake/beefy/beefyfinance.png',
+        background: 'stake/beefy/background.png',
+        text: 'beCAKE is Beefy Staked CAKE. The token is pegged to CAKE and can be staked on the Beefy platform to earn CAKE or more beCAKE. beCAKE gives stakers access to lock rewards of staking CAKE, plus additional income from all of Beefy Pancake Strategies. You can burn beCAKE for CAKE if there is available CAKE reserves.',
+        website: 'https://beefy.com',
+        social: {
+          telegram: 'http://t.me/beefyfinance',
+          twitter: 'https://twitter.com/beefyfinance',
+        },
+      },
+    ],
+  },
+
+  {
     id: 'moo_BIFI-emp',
     name: 'EMP Money',
     logo: 'single-assets/BIFI.png',
