@@ -188,7 +188,7 @@ export const bscStakePools = [
     earnContractAddress: '0x49fAfAA2d9E32A6Af37A11cEeC50D76A772390Cc',
     earnContractAbi: govPoolABI,
     earnedOracle: 'tokens',
-    earnedOracleId: 'CAKE',
+    earnedOracleId: 'Cake',
     partnership: false,
     status: 'active',
     fixedStatus: true,
