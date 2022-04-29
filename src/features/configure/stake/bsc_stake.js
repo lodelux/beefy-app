@@ -176,7 +176,7 @@ export const bscStakePools = [
   {
     id: 'moo_beCAKE',
     name: 'Beefy',
-    logo: 'single-assets/beCAKE.png',
+    logo: 'single-assets/beCAKE.svg',
     token: 'beCAKE',
     tokenDecimals: 18,
     tokenAddress: '0x42b50A901228fb4C739C19fcd38DC2182B515B66',

@@ -73,7 +73,7 @@ export const bscPools = [
     id: 'beefy-becake',
     name: 'beCAKE',
     token: 'beCAKE',
-    logo: 'single-assets/beCAKE.png',
+    logo: 'single-assets/beCAKE.svg',
     tokenDescription: 'Beefy.Finance',
     tokenAddress: '0x42b50A901228fb4C739C19fcd38DC2182B515B66',
     tokenDecimals: 18,
