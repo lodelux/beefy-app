@@ -34,10 +34,11 @@ export const avalanchePools = [
       'https://www.traderjoexyz.com/trade?outputCurrency=0xd6070ae98b8069de6b494332d1a1a81b6179d960',
     createdAt: 1629307105,
   },
+
   {
     id: 'joe-tus-wavax',
     name: 'TUS-AVAX LP',
-    token: 'TUS-AVAX LP',
+    token: 'TUS-AVAX JLP',
     tokenDescription: 'TraderJoe',
     tokenAddress: '0x565d20BD591b00EAD0C927e4b6D7DD8A33b0B319',
     tokenDecimals: 18,
