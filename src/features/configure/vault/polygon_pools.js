@@ -53,7 +53,7 @@ export const polygonPools = [
     depositsPaused: false,
     status: 'active',
     platform: 'QuickSwap',
-    assets: ['BTC', 'cxBTC'],
+    assets: ['WBTC', 'cxBTC'],
     risks: [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
