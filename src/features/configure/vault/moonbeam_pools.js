@@ -43,8 +43,8 @@ export const moonbeamPools = [
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooStellaswapDualETH',
-    earnedTokenAddress: '0x1A8c8B10c3d01a7eeD3fcF5B1C6F844A53bAeDF3',
-    earnContractAddress: '0x1A8c8B10c3d01a7eeD3fcF5B1C6F844A53bAeDF3',
+    earnedTokenAddress: '0xdd856F58E8B01579ef5DbE78f597615D66c320EE',
+    earnContractAddress: '0xdd856F58E8B01579ef5DbE78f597615D66c320EE',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
@@ -66,7 +66,7 @@ export const moonbeamPools = [
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://app.stellaswap.com/exchange/pool/stable/add/0xb86271571c90ad4E0C9776228437340b42623402',
-    createdAt: 1653728478,
+    createdAt: 1653747480,
   },
 
   {
