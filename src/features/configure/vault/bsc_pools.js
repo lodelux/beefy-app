@@ -33,6 +33,42 @@ export const bscPools = [
     createdAt: 1648477070,
   },
   {
+    id: 'baby-avax-wbnb',
+    name: 'AVAX-BNB LP',
+    token: 'AVAX-BNB LP',
+    tokenDescription: 'BabySwap',
+    tokenAddress: '0x70Ef2ea7500e81DCB77eb7E33F4343eE494dA89a',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooBabyAVAX-BNB',
+    earnedTokenAddress: '0xebcbaC449D17f73aEC163302D66aB1E70088583d',
+    earnContractAddress: '0xebcbaC449D17f73aEC163302D66aB1E70088583d',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'baby-avax-wbnb',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Other',
+    assets: ['AVAX', 'BNB'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_HIGH',
+      'MCAP_LARGE',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratLP',
+    addLiquidityUrl:
+      'https://exchange.babyswap.finance/#/add/0x1CE0c2827e2eF14D5C4f29a091d735A204794041/BNB',
+    buyTokenUrl:
+      'https://exchange.babyswap.finance/#/swap?outputCurrency=0x1CE0c2827e2eF14D5C4f29a091d735A204794041',
+    createdAt: 1654163790,
+  },
+
+  {
     id: 'baby-ftm-wbnb',
     name: 'FTM-BNB LP',
     token: 'FTM-BNB LP',
@@ -65,7 +101,7 @@ export const bscPools = [
       'https://exchange.babyswap.finance/#/add/0xAD29AbB318791D579433D831ed122aFeAf29dcfe/BNB',
     buyTokenUrl:
       'https://exchange.babyswap.finance/#/swap?outputCurrency=0xAD29AbB318791D579433D831ed122aFeAf29dcfe',
-    createdAt: 1654117138,
+    createdAt: 1654117123,
   },
   {
     id: 'baby-bnb-usdt',
