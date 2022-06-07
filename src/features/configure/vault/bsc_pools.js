@@ -1096,6 +1096,7 @@ export const bscPools = [
       'MCAP_HIGH',
       'ADMIN_WITH_TIMELOCK',
       'CONTRACTS_VERIFIED',
+      'OVER_COLLAT_ALGO_STABLECOIN',
     ],
     stratType: 'Lending',
     buyTokenUrl:
@@ -3091,7 +3092,7 @@ export const bscPools = [
     retiredReason: 'tvl',
   },
   {
-    id: 'cakev2-qi-wbnb',
+    id: 'cakev2-qi-wbnb-eol',
     name: 'QI-BNB LP',
     token: 'QI-BNB LP2',
     tokenDescription: 'PancakeSwap',
@@ -3106,8 +3107,9 @@ export const bscPools = [
     oracle: 'lps',
     oracleId: 'cakev2-qi-wbnb',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'PancakeSwap',
     assets: ['bQI', 'BNB'],
     risks: [
@@ -4466,6 +4468,7 @@ export const bscPools = [
       'MCAP_LARGE',
       'AUDIT',
       'CONTRACTS_VERIFIED',
+      'OVER_COLLAT_ALGO_STABLECOIN',
     ],
     stratType: 'StratMultiLP',
     withdrawalFee: '0.01%',

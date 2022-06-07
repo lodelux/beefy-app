@@ -132,6 +132,7 @@ export const arbitrumPools = [
       'MCAP_MEDIUM',
       'AUDIT',
       'CONTRACTS_VERIFIED',
+      'OVER_COLLAT_ALGO_STABLECOIN',
     ],
     stratType: 'StratMultiLP',
     withdrawalFee: '0.01%',
@@ -200,6 +201,7 @@ export const arbitrumPools = [
       'MCAP_MEDIUM',
       'AUDIT',
       'CONTRACTS_VERIFIED',
+      'OVER_COLLAT_ALGO_STABLECOIN',
     ],
     stratType: 'StratLP',
     addLiquidityUrl:
@@ -209,7 +211,7 @@ export const arbitrumPools = [
     createdAt: 1632254301,
   },
   {
-    id: 'sushi-arb-weth-link',
+    id: 'sushi-arb-weth-link-eol',
     name: 'LINK-ETH LP',
     token: 'LINK-ETH LP',
     tokenDescription: 'Sushi',
@@ -224,8 +226,9 @@ export const arbitrumPools = [
     oracle: 'lps',
     oracleId: 'sushi-arb-weth-link',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'SushiSwap',
     assets: ['LINK', 'ETH'],
     risks: [
